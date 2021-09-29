@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Actividad 2</title>
+	<style>
+    .cuadrogrande{
+			background:#FDA0ED ;
+			height: 500px;
+			width: 1230px;
+			margin-left: 50px;
+			margin-top: 50px;
+		    border: solid 5px black;
+		}		
+
+	.cuadropequeño{
+	   background:#FDA0ED ;
+			height: 150px;
+			width: 1230px;
+			margin-left: 50px;
+			margin-top: 30px;
+		    border: solid 5px black;
+	}
+
+	.papa1{
+		background: #A0D6FD ;
+		height: 100px;
+	    width: 250px;
+	    margin-left: 80px;
+		margin-top: -130px;
+		border-radius: 50%;
+		transition: 1s;
+		border: solid 5px black;
+	}
+
+	.hijo1{
+			background:#A0C6FD;
+			position: absolute;
+			height: 440px;
+			width: 1165px;
+			left: 90px;
+			top: 80px;
+			transition: 5s;
+		    border: solid 5px black;
+		    display: none;
+		}
+
+    .papa1:hover{
+	        background: #B9A0FD;
+	        display:block;
+        }
+
+    .papa1:hover .hijo1{
+        	background:#A0D6FD ;
+        	border: solid 5px black;
+        	display: block;
+        	color:#A0D6FD ;
+        }
+
+    .papa2{
+		background: #A0D6FD ;
+		height: 100px;
+	    width: 250px;
+	    margin-left: 550px;
+		margin-top: -110px;
+		border-radius: 50%;
+		transition: 1s;
+		border: solid 5px black;
+	}
+
+	.hijo2{
+			background:#A0C6FD;
+			position: absolute;
+			height: 440px;
+			width: 1165px;
+			left: 90px;
+			top: 80px;
+			transition: 5s;
+		    border: solid 5px black;
+		    display: none;
+		}
+
+    .papa2:hover{
+	        background: #B9A0FD;
+	        display:block;
+        }
+
+    .papa2:hover .hijo2{
+        	background:#A0D6FD ;
+        	border: solid 5px black;
+        	display: block;
+        	color:#A0D6FD ;
+        }    
+
+        .papa3{
+		background: #A0D6FD ;
+		height: 100px;
+	    width: 250px;
+	    margin-left: 1000px;
+		margin-top: -110px;
+		border-radius: 50%;
+		transition: 1s;
+		border: solid 5px black;
+	}
+
+	.hijo3{
+			background:#A0C6FD;
+			position: absolute;
+			height: 440px;
+			width: 1165px;
+			left: 90px;
+			top: 80px;
+			transition: 5s;
+		    border: solid 5px black;
+		    display: none;
+		}
+
+    .papa3:hover{
+	        background: #B9A0FD;
+	        display:block;
+        }
+
+    .papa3:hover .hijo3{
+        	background:#A0D6FD ;
+        	border: solid 5px black;
+        	display: block;
+        	color:#A0D6FD ;
+        } 
+
+
+
+	
+	</style>
+</head>
+<body bgcolor="#FDFDA0">
+	<div class="cuadrogrande"></div>
+	<div class="cuadropequeño"></div>
+
+	<div class="papa1">
+		<div class="texto"><font face="Cute Little Sheep"><h2><center>¿Que es un condicional<br> en excel?</h2></font></center></div>
+		<div class="hijo1"><font color="black" face="Times New Roman"><h1><center>¿Que es?</center></h1> <br>
+			<h2>
+               Los condicionales son el uso de funciones preestablecidas y el uso de restricciones para que estas operen. Los condicionales se pueden utilizar para modificar el comportamiento de todas las funciones que utiliza excel </h2>
+               <div style="position: absolute;left:400px;top: 200px;"><img src="img1.png"></div>
+       	</font></div>
+	</div>
+
+		<div class="papa2">
+			<div class="texto"><font face="Cute Little Sheep"><h2><center> Sintaxis</h2></font></center></div>
+		<div class="hijo2"><font color="black" face="Times New Roman"><h1><center>Sintaxis</center></h1><h2>
+               Se debe de tener claro que condicion debemos utilizar, ya sea suma, resta, division, etc.Primero se debe poner el signo igual "=", luego un "si" y se abre parentesis, luego se coloca la condicion que seria seleccionar la selda con la que esta se va a empezar el primero proceso, para luego colocar mayor que, menor que o igual que.Luego se pone un punto y coma ";", este se coloca para dar el caso verdadero, que este se coloca entre comillas y copiando lo verdadero, despues de este sigue otro punto y coma, pero en este caso es para el caso falso, y luego se cierra parentesis.Un ejemplo para este es:</h2>
+               <div style="position: absolute;left:400px;top: 220px;"><img src="img2.png"></div>
+       	</font></div>
+       </div>
+	</div>
+
+	<div class="papa3"><div class="texto"><font face="Cute Little Sheep"><h2><center>Algunos condicionales </h2></font></center></div>
+		<div class="hijo3"><font color="black" face="Times New Roman"><h1><center>Funciones Condicionales</center></h1><h3>
+               Nos enseñaron a utilizar el condicional de suma. Este se utiliza para sumar todo los valores, o un conjunto de numeros especificados por el usuario, un ejemplo para este seria: Se quiere sumar de un conjunto de numeros, las notas buenas(superiores a tres), los numeros del conjunto son: 4,3,5,1,2,4,2,4,1,2.En este caso seria, primero se debe poner el nombre de la operacion, en este caso suma, siguiente a esto se pone un punto y un si,se abre parentesis y se debe colocar el rango(donde quiere buscar la condicion), entonces el rango de busqueda son todos los numeros del conjunto, luego sigue el criterio; ud que quiere(mayores,igual que 3), luego rango de la suma(se suma las mismas notas). En este caso daria 20.</h3> <div style="position: absolute;left:400px;top: 220px;"><img src="img3.png"></div></div>
+
+
+	</div>
+
+
+</body>
+</html>
